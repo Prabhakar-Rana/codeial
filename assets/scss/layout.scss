@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    /* text-align: center; */
+    #layout-main{
+        height: 80%;
+    }
+    header{
+        ul{
+            background-color:lightblue;
+            display: flex;
+            text-align: center;
+            justify-content: end;
+            li{
+                margin: 20px;
+            }
+        }
+    }
+}
+
