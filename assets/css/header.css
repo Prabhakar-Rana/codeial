@@ -1,0 +1,9 @@
+#a {
+  font-weight: bold; }
+  #a ul li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: large;
+    color: gray; }
+    #a ul li :hover {
+      color: #ed5d5d; }

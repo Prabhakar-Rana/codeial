@@ -1,4 +1,6 @@
-<header>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/header.css">
+<header id="a">
     <ul>
         <% if (locals.user){ %>
             <li>
@@ -8,6 +10,7 @@
             </li>
             <li>
                 <a href="/users/sign-out">Sign Out</a>
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
             </li>
         <% }else{ %>
 

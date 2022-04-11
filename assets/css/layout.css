@@ -3,10 +3,11 @@ body {
   body #layout-main {
     margin-top: -10px;
     height: 80%; }
-  body header ul {
-    background-color: #61c8eb;
-    display: flex;
-    text-align: center;
-    justify-content: end; }
-    body header ul li {
-      margin: 30px; }
+  body header {
+    background-image: url("../images/bg-1.jpg"); }
+    body header ul {
+      display: flex;
+      text-align: center;
+      justify-content: end; }
+      body header ul li {
+        margin: 24px; }

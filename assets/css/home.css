@@ -3,7 +3,9 @@
   #home-container #feed-posts {
     width: 70%;
     padding: 10px;
-    background-color: #37e9da; }
+    background-image: url("../images/bg-9.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
   #home-container #user-friends {
     width: 30%;
     padding: 20px;

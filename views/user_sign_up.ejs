@@ -1,13 +1,21 @@
+<section>
+<link rel="stylesheet" href="/css/sign_in.css" />
+<section id="sign_in">
 <h1>Sign Up</h1>
 
-<form action="/users/create" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <input type="password" name="password" placeholder="Password" required>
-    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+<form id="sign_in_form" action="/users/create" method="POST">
+    <input type="text" name="name" size="50" placeholder="Your Name" required>
+    <br>
+    <input type="email" name="email" size="50" placeholder="Your Email" required>
+    <br>
+    <input type="password" name="password" size="50" placeholder="Password" required>
+    <br>
+    <input type="password" name="confirm_password" size="50" placeholder="Confirm Password" required>
+    <br>
     <input type="submit" value="Sign Up">
 
 </form>
-<p>
+<section></section>
     <a href="/users/auth/google">google In/sign Up/sign</a>
-</p>
+</section>
+</section>

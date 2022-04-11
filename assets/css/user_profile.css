@@ -1,2 +1,19 @@
-body {
-  background-color: #c3d3f5; }
+section {
+  background-image: url("../images/bg-3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%; }
+  section #sign_in {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding: 5px;
+    border: 3px dotted gray;
+    margin-left: 500px;
+    background-color: #ccccf3; }
+    section #sign_in #sign_in_form input {
+      margin: 8px;
+      padding: 8px; }
+    section #sign_in section a {
+      font-weight: 300; }
